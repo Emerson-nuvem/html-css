@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 07</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Aumente e diminua a página para ver os diferentes tamanhos de Imagem</p>
+
+    <picture>
+        <source media="(min-width: 1200px)" srcset="imagens/paisagem-g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-p.png" alt="Foto de exemplo">
+    </picture>
+    
+</body>
+</html>

@@ -1,0 +1,135 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url("fontes/idroid.otf") format("opentype");
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    text-indent: 20px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(1, 177, 1), rgb(1, 32, 1));
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    
+}
+
+h1#principal{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto 0px auto;
+    padding: 35px;
+    border: 0px;
+    font-size: 3em;
+}
+h2#sub{
+    margin: auto;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 1.4em;
+    
+}
+nav {
+    margin-top: 30px;
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding: 10px 10px 1px 10px;
+    border-radius: 5px;
+    
+}
+
+nav > a:hover{
+    background-color: darkgreen;
+}
+
+nav> a:visited{
+    color: rgb(22, 160, 75);
+}
+
+article > h1{
+    font-family: "idroid";
+    margin: 0px;
+    font-size: 2em;
+    color: rgb(44, 104, 44);
+    padding-top: 20px;
+    text-align: justify;
+}
+
+article > p{
+    text-align: justify;
+}
+
+section{
+    margin: 0px;
+}
+
+section > article{
+    background-color: white;
+    text-align: center;
+    margin: 0px 75px;
+    padding: 0px 15px;
+    
+}
+
+p > a.linkp{
+    color: rgb(20, 121, 20);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2.padrao{
+    font-family: "idroid";
+    background-color: lightgreen;
+    color: rgb(44, 104, 44);
+    text-align: justify;
+}
+
+p#iframe{
+    background-color: green;
+    text-align: center;
+}
+
+aside#extra{
+    background-color: rgba(1, 255, 56, 0.24);
+    border-radius: 5px;
+    padding: 0px;
+    margin: 25px;
+    text-align: justify;
+    box-shadow: 1px 1px 1px black;
+    
+}
+aside > h3{
+    background-color: rgb(0, 153, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside > ul{
+    display: inline-block;
+}
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    color: white ;
+}
+
+footer >a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
