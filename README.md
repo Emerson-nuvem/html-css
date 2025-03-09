@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e esse é o link do meu primeiro exercício.
 
-<a href="emerson-nuvem.github.io/html-css/exercícios/ex001/index.html"> Executar o exercício 1 de HTML5</a>
+<a href="exercícios/ex001/index.html"> Executar o exercício 1 de HTML5</a>
