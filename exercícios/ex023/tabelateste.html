@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption{
+            border: 1px solid gray;
+            font-weight: bolder;
+            padding: 6px;
+            background-color: black;
+            color: white;
+        }
+
+        td, th{
+            
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        th{
+            background-color: black;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- Anatomia para tabelas grandes
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD ,TH
+    -->
+    <table>
+        <caption>Resultado do Faker em Campeonatos 1v1</caption>
+        <thead>
+            <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Evento</th>
+                <th scope="col">Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2022-12-29</td>
+                <td>SKE 2023 Korea 1v1 Battle</td>
+                <td>Team Faker</td>
+            </tr>
+            <tr>
+                <td>2019-12-07</td>
+                <td>All-Star 2019 Las Vegas</td>
+                <td>LCK</td>
+            </tr>
+            <tr>
+                <td>2018-12-08</td>
+                <td>All-Star 2018 Las Vegas</td>
+                <td>LCK</td>
+            </tr>
+            <tr>
+                <td>2017-12-10</td>
+                <td>All-Star 2017 Los Angeles</td>
+                <td>LCK</td>
+            </tr>
+            <tr>
+                <td>2016-12-11</td>
+                <td>All-Star 2016 Barcelona</td>
+                <td>Ice</td>
+            </tr>
+            <tr>
+                <td>2015-12-13</td>
+                <td>All-Star 2015 Los Angeles</td>
+                <td>Fire</td>
+            </tr>
+            <tr>
+                <td>2015-03-08</td>
+                <td>The Solo King Korean 1v1 Tournament</td>
+                <td>SKT</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
