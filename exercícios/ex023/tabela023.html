@@ -4,18 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha primeira tabela</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    table{
+        border-collapse: collapse;
+        width: 400px;
+        height: 400px;
+    }
+
+    .par{
+        background-color: lightgray;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 6px;
+        text-align: center; /*Alinhamento Horizontal*/
+        vertical-align: middle; /*Alinhamento Vertical*/
+    }
+
+    .numero{
+        text-align: right;
+    }
+</style>
 </head>
+
 <body>
+    <h1>Primeira Tabela</h1>
     <table>
         <!-- HIERARQUIA DE TABELA SIMPLES
         TABLE = Tabela
             TABLE ROWS = Linha de Tabela
                 TABLE HEADER = Cabeçalho de Tabela
                 TABLE DATA = Dados de tabela 
-        
-        
-        
         -->
+                <tr>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td class="numero">C1</td>
+                </tr>
+                <tr class="par">
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td class="numero">C2</td>
+                </tr>
+                <tr>
+                    <td>A3</td>
+                    <td>B3</td>
+                    <td class="numero">C3</td>
+                </tr>
+                <tr class="par">
+                    <td>A4</td>
+                    <td>B4</td>
+                    <td class="numero">C4</td>
+                </tr>
     </table>
     
 </body>
