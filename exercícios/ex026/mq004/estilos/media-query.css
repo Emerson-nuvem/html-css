@@ -30,7 +30,7 @@ Telas muito grandes: 1200px ou mais */
     }
 
     main::after{
-        content: 'Essa é a versão impressa do projeto desse projeto que se encontra em https://emerson-nuvem.github.io/html-css/ex026/mq004/index.html';
+        content: 'Essa é a versão impressa do projeto desse projeto que se encontra em https://emerson-nuvem.github.io/html-css/exercícios/ex026/mq004/index.html';
         text-decoration: overline;
     }
 
